@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "corsheaders",
     "django_filters",
+    "prices.apps.PricesConfig",
+    "products.apps.ProductsConfig",
+    "retailers.apps.RetailersConfig",
 ]
 
 MIDDLEWARE = [
